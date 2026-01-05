@@ -599,7 +599,7 @@ nav ul li a:hover {
 
 body::before {
    content: "";
-   background: url("../images/bg-curvy-mobile.svg") top center/100% auto no-repeat,
+   background: url("bg-curvy-mobile.svg") top center/100% auto no-repeat,
       linear-gradient(180deg, transparent 35vw, hsl(218, 28%, 13%) 35vw);
    position: absolute;
    top: 280px;
@@ -611,7 +611,7 @@ body::before {
 
 @media screen and (min-width: 992px) {
    body::before {
-      background: url("../images/bg-curvy-desktop.svg") top center/100% auto no-repeat,
+      background: url("bg-curvy-desktop.svg") top center/100% auto no-repeat,
          linear-gradient(180deg, transparent 29vw, hsl(218, 28%, 13%) 29vw);
       top: 848px;
       height: calc(100% - 848px);
@@ -623,4 +623,5 @@ body::before {
       width: min(100% - 2.5rem, 85rem);
       margin-inline: auto;
    }
+
 }
